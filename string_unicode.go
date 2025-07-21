@@ -10,10 +10,10 @@ import (
 	"unicode/utf16"
 	"unicode/utf8"
 
+	"github.com/dop251/goja/modules/xtext/cases"
+	"github.com/dop251/goja/modules/xtext/language"
 	"github.com/dop251/goja/parser"
 	"github.com/dop251/goja/unistring"
-	"golang.org/x/text/cases"
-	"golang.org/x/text/language"
 )
 
 type unicodeString []uint16

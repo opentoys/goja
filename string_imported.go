@@ -12,8 +12,8 @@ import (
 	"github.com/dop251/goja/parser"
 	"github.com/dop251/goja/unistring"
 
-	"golang.org/x/text/cases"
-	"golang.org/x/text/language"
+	"github.com/dop251/goja/modules/xtext/cases"
+	"github.com/dop251/goja/modules/xtext/language"
 )
 
 // Represents a string imported from Go. The idea is to delay the scanning for unicode characters and converting

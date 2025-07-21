@@ -10,7 +10,7 @@ import (
 	"unicode/utf16"
 	"unicode/utf8"
 
-	"golang.org/x/text/unicode/rangetable"
+	"github.com/dop251/goja/modules/xtext/unicode/rangetable"
 
 	"github.com/dop251/goja/file"
 	"github.com/dop251/goja/token"

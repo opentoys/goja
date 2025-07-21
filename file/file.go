@@ -10,7 +10,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/go-sourcemap/sourcemap"
+	"github.com/dop251/goja/modules/sourcemap"
 )
 
 // Idx is a compact encoding of a source position within a file set.

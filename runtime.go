@@ -15,7 +15,7 @@ import (
 	"strconv"
 	"time"
 
-	"golang.org/x/text/collate"
+	"github.com/dop251/goja/modules/xtext/collate"
 
 	js_ast "github.com/dop251/goja/ast"
 	"github.com/dop251/goja/file"

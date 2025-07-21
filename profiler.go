@@ -8,7 +8,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/google/pprof/profile"
+	"github.com/dop251/goja/modules/pprof/profile"
 )
 
 const profInterval = 10 * time.Millisecond
